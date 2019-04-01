@@ -194,6 +194,42 @@ class SomanticPractice extends React.Component {
 				  </div>
 				  <button class="ui button" type="submit">Submit</button>
 				</form>
+				<div class="ui small image">
+				  <img src="/images/wireframe/image.png"/>
+				</div>
+				<img class="hidden ui image" src="/images/wireframe/image.png"/>
+				<div class="ui relaxed divided list">
+				  <div class="item">
+				    <i class="large github middle aligned icon"></i>
+				    <div class="content">
+				      <a class="header">Semantic-Org/Semantic-UI</a>
+				      <div class="description">Updated 10 mins ago</div>
+				    </div>
+				  </div>
+				  <div class="item">
+				    <i class="large github middle aligned icon"></i>
+				    <div class="content">
+				      <a class="header">Semantic-Org/Semantic-UI-Docs</a>
+				      <div class="description">Updated 22 mins ago</div>
+				    </div>
+				  </div>
+				  <div class="item">
+				    <i class="large github middle aligned icon"></i>
+				    <div class="content">
+				      <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
+				      <div class="description">Updated 34 mins ago</div>
+				    </div>
+				  </div>
+				</div>
+				<div class="ui icon message">
+				  <i class="notched circle loading icon"></i>
+				  <div class="content">
+				    <div class="header">
+				      Just one second
+				    </div>
+				    <p>We're fetching that content for you.</p>
+				  </div>
+				</div>
 			</Container>
 		)
 	}
